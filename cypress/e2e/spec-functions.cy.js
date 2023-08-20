@@ -18,7 +18,7 @@ export const getTableCellTextByXpath = async (WebElementTable, searchText, retur
   })
 };
 
-//the following function get result and expected result texts and pring the result
+//The following function get result and expected result texts - compare them and print the result of test.
 export const verifyTableCellTextByText = async (resultText, expectedText) => {
   if (expectedText == resultText) {
     cy.log("Passed - expected value is:", expectedText, "the value is:", resultText)
