@@ -26,7 +26,7 @@ spec-functions.cy.js file contains the following functions:
 
 **getTableCellTextByXpath**:
 
-The functions should get the table *web element, *index or column name to look for a value, the value to search, index or the name of the column, expected result value.
+The functions should get: *table web element, *index or column name to look for a value, the value to search, index or the name of the column, expected result value.
 the function finds the expected value on the element by cypress options (as XPath)
 function call verifyTableCellTextByText function and sent 2 params: result text that was found by getTableCellTextByXpath and expected result text that the function gets from main code
 
