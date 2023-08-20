@@ -8,14 +8,17 @@ note: - should install the 'node.js' with the correct version before running the
 
 npx cypress run --spec ".\cypress\e2e\spec-test.cy.js"
 
-The following tests ate on 2 files (services)
+**The following tests ate on 2 files (services)**
 
 1. spec-test
    
 2. spec-functions
 
+
 spec-test.cy.js file contains the main code
+
 spec-functions.cy.js file contains the following functions:
+
 
 1.verifyTableCellTextByText
 
