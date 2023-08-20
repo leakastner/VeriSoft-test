@@ -7,7 +7,9 @@ note: - should install the node with the correct version before running the proj
 npx cypress run --spec ".\cypress\e2e\spec-test.cy.js"
 
 The following tests ate on 2 files (services)
+
 1. spec-test
+   
 2. spec-functions
 
 spec-test.cy.js file contains the main code
