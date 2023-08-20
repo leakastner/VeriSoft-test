@@ -14,7 +14,9 @@ The following tests ate on 2 files (services)
 
 spec-test.cy.js file contains the main code
 spec-functions.cy.js file contains the following functions:
+
 1.verifyTableCellTextByText
+
 2.getTableCellTextByXpath
 
 **getTableCellTextByXpath**:
