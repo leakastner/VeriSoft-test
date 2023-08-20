@@ -1,7 +1,8 @@
 **VeriSoft Test:**
 
-The project is written on the cypress tool - node.js 
-note: - should install the node with the correct version before running the project - (v18.17.1)
+The project is written on the Cypress tool - node.js 
+
+note: - should install the 'node.js' with the correct version before running the project - (v18.17.1)
 
 **Command to Run:**
 
