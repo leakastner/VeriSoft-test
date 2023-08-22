@@ -19,7 +19,7 @@ describe('VerySoft Test', () => {
     }
     //The pollowing loop run on all the moc data positive arr and send the values for tests to the getTableCellTextByXpath function
     try {
-      for (let i = 0; i < arrExcellPositive.length - 1; i += 3) {
+      for (let i = 0; i < arrExcelPositive.length - 1; i += 3) {
         getTableCellTextByXpath(table, arrExcelPositive[i], arrExcelPositive[i + 1], arrExcelPositive[i + 2]);
       }
     }
@@ -39,7 +39,7 @@ describe('VerySoft Test', () => {
     }
     //The pollowing loop run on all the moc data positive arr and send the values for tests to the getTableCellTextByXpath function
     try {
-      for (let i = 0; i < arrExcellNegative.length - 1; i += 3) {
+      for (let i = 0; i < arrExcelNegative.length - 1; i += 3) {
         getTableCellTextByXpath(table, arrExcelNegative[i], arrExcelNegative[i + 1], arrExcelNegative[i + 2]);
       }
     }
